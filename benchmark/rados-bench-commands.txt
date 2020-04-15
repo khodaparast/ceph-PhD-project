@@ -1,0 +1,28 @@
+https://tracker.ceph.com/projects/ceph/wiki/Benchmark_Ceph_Cluster_Performance
+
+
+
+
+This creates a new pool named 'scbench' and then performs a write benchmark for 10 seconds.
+Notice the --no-cleanup option, which leaves behind some data. The output gives you a good indicator of how fast your
+cluster can write data.
+Two types of read benchmarks are available: seq for sequential reads and rand for random reads. To perform a read benchmark,
+use the commands below:
+
+shell> rados bench -p scbench 10 seq
+shell> rados bench -p scbench 10 rand
+
+
+
+
+You can also add the -t parameter to increase the concurrency of reads and writes (defaults to 16 threads), or the -b parameter to change the size of the object being written (defaults to 4 MB). It's also a good idea to run multiple copies of this benchmark against different pools, to see how performance changes with multiple clients.
+Once you have the data, you can begin comparing the cluster read and write statistics with the disk-only benchmarks performed earlier, identify how much of a performance gap exists (if any), and start looking for reasons.
+You can clean up the benchmark data left behind by the write benchmark with this command:
+
+shell> rados -p scbench cleanup
+
+
+
+
+
+
