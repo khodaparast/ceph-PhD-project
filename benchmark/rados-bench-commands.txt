@@ -23,6 +23,38 @@ shell> rados -p scbench cleanup
 
 
 
+a sample result:
 
+hints = 1
+Maintaining 16 concurrent writes of 4194304 bytes to objects of size 4194304 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_27836
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0       0         0         0         0         0           -           0
+    1      16        22         6    23.998        24    0.878733    0.797192
+    2      16        50        34   67.9917       112    0.486429     0.81395
+    3      16        66        50    66.657        64    0.744865    0.793691
+    4      16        87        71   70.9893        84    0.709879    0.804134
+    5      16       108        92   73.5885        84     0.46884    0.807376
+    6      16       130       114    75.988        88    0.628876     0.79953
+    7      16       144       128   73.1311        56    0.474377    0.789174
+    8      16       165       149   74.4876        84     0.94911    0.783839
+    9      16       185       169   75.0985        80    0.902652    0.802796
+   10      16       203       187   74.7874        72    0.656657    0.802653
+Total time run:         10.4036
+Total writes made:      204
+Write size:             4194304
+Object size:            4194304
+Bandwidth (MB/sec):     78.4347
+Stddev Bandwidth:       23.3276
+Max bandwidth (MB/sec): 112
+Min bandwidth (MB/sec): 24
+Average IOPS:           19
+Stddev IOPS:            5.8319
+Max IOPS:               28
+Min IOPS:               6
+Average Latency(s):     0.812496
+Stddev Latency(s):      0.405927
+Max latency(s):         3.19861
+Min latency(s):         0.275649
 
 
