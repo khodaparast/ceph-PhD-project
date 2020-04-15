@@ -1,0 +1,1395 @@
+hdd
+{
+    "osd": 0,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6906",
+                "nonce": 4545
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6907",
+                "nonce": 4545
+            }
+        ]
+    },
+    "osd_fsid": "474ce4bb-0365-4c28-a2c8-16993f9aa9a3",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.1857236560000004,
+    "bytes_per_sec": 149427096.75502723,
+    "iops": 35.626196087605294
+}
+hdd
+{
+    "osd": 1,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6800",
+                "nonce": 63768
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6801",
+                "nonce": 63768
+            }
+        ]
+    },
+    "osd_fsid": "530e35be-80e6-4bf0-9ad2-a37ef961e8ec",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.357181035,
+    "bytes_per_sec": 145944733.30096599,
+    "iops": 34.795935940972804
+}
+hdd
+{
+    "osd": 2,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6810",
+                "nonce": 4544
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6812",
+                "nonce": 4544
+            }
+        ]
+    },
+    "osd_fsid": "ce5fb8c2-4a8a-493f-9cec-87bbb3665151",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.3979847449999996,
+    "bytes_per_sec": 145139772.65574911,
+    "iops": 34.604018367707518
+}
+hdd
+{
+    "osd": 3,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6808",
+                "nonce": 67342
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6809",
+                "nonce": 67342
+            }
+        ]
+    },
+    "osd_fsid": "23471dcd-1496-47ad-8167-db4590232568",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.5384390110000004,
+    "bytes_per_sec": 142435565.56380025,
+    "iops": 33.959285155248701
+}
+hdd
+{
+    "osd": 4,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6908",
+                "nonce": 4620
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6910",
+                "nonce": 4620
+            }
+        ]
+    },
+    "osd_fsid": "d82a5c1d-5625-451b-95ab-7ec851a9cd40",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.2977733239999996,
+    "bytes_per_sec": 147132800.14724669,
+    "iops": 35.079193150340721
+}
+hdd
+{
+    "osd": 5,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6874",
+                "nonce": 4539
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6879",
+                "nonce": 4539
+            }
+        ]
+    },
+    "osd_fsid": "f265b363-f957-4876-8e3b-f0432fba4b12",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.5867252499999998,
+    "bytes_per_sec": 141529024.52873194,
+    "iops": 33.743148929770456
+}
+hdd
+{
+    "osd": 6,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6834",
+                "nonce": 4563
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6837",
+                "nonce": 4563
+            }
+        ]
+    },
+    "osd_fsid": "4c59755e-5c40-4eb3-b6c1-c03949125ccc",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.5589650080000004,
+    "bytes_per_sec": 142048788.80423573,
+    "iops": 33.867070389803821
+}
+hdd
+{
+    "osd": 7,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6816",
+                "nonce": 70036
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6817",
+                "nonce": 70036
+            }
+        ]
+    },
+    "osd_fsid": "2e01156b-a2b5-49d9-8f9e-1b6ac158804f",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.3346925870000002,
+    "bytes_per_sec": 146392205.43518057,
+    "iops": 34.902621611399788
+}
+hdd
+{
+    "osd": 8,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6837",
+                "nonce": 4614
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6839",
+                "nonce": 4614
+            }
+        ]
+    },
+    "osd_fsid": "22deabb7-f997-4dfe-97c5-69fe6c8c9b2b",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.0003095909999997,
+    "bytes_per_sec": 153384905.34482419,
+    "iops": 36.569811187940644
+}
+hdd
+{
+    "osd": 9,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6809",
+                "nonce": 4549
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6810",
+                "nonce": 4549
+            }
+        ]
+    },
+    "osd_fsid": "df0e5ab2-fd4f-4fdf-8c74-6537be8224ad",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.3341737760000001,
+    "bytes_per_sec": 146402561.05107045,
+    "iops": 34.905090582625974
+}
+hdd
+{
+    "osd": 10,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6834",
+                "nonce": 4490
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6835",
+                "nonce": 4490
+            }
+        ]
+    },
+    "osd_fsid": "7c1fb665-5204-479e-a57f-d61489be097d",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.2924856629999999,
+    "bytes_per_sec": 147239483.71237272,
+    "iops": 35.104628494351559
+}
+hdd
+{
+    "osd": 11,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6824",
+                "nonce": 64240
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6825",
+                "nonce": 64240
+            }
+        ]
+    },
+    "osd_fsid": "6dd8bda0-ba5f-438f-8ce4-ea03e6c1cffb",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.5223039729999996,
+    "bytes_per_sec": 142741084.09524652,
+    "iops": 34.032126449405318
+}
+hdd
+{
+    "osd": 12,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6870",
+                "nonce": 4555
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6872",
+                "nonce": 4555
+            }
+        ]
+    },
+    "osd_fsid": "cded8129-fff4-4638-8b6f-e7f87748c941",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.5013166880000002,
+    "bytes_per_sec": 143140447.02547824,
+    "iops": 34.127341991777001
+}
+hdd
+{
+    "osd": 13,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6871",
+                "nonce": 4533
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6876",
+                "nonce": 4533
+            }
+        ]
+    },
+    "osd_fsid": "ff8961a9-0d37-40c6-8860-3997e7ee2823",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.3137915019999999,
+    "bytes_per_sec": 146810559.70851493,
+    "iops": 35.002365042809231
+}
+hdd
+{
+    "osd": 14,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6832",
+                "nonce": 64648
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6833",
+                "nonce": 64648
+            }
+        ]
+    },
+    "osd_fsid": "b987e0d2-cfd0-4745-b4fa-9f674a8990d9",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.3499052860000003,
+    "bytes_per_sec": 146089205.53646436,
+    "iops": 34.830380806079951
+}
+hdd
+{
+    "osd": 15,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6840",
+                "nonce": 65060
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6841",
+                "nonce": 65060
+            }
+        ]
+    },
+    "osd_fsid": "15a95316-9c90-4275-b528-cb8ac135463b",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.5014829250000004,
+    "bytes_per_sec": 143137274.95420513,
+    "iops": 34.126585711051256
+}
+hdd
+{
+    "osd": 16,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6855",
+                "nonce": 4493
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6858",
+                "nonce": 4493
+            }
+        ]
+    },
+    "osd_fsid": "22466ede-fa58-4469-893d-4c1856d66ee1",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.3826412729999999,
+    "bytes_per_sec": 145441419.17431614,
+    "iops": 34.675936502055201
+}
+hdd
+{
+    "osd": 17,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6826",
+                "nonce": 4539
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6829",
+                "nonce": 4539
+            }
+        ]
+    },
+    "osd_fsid": "79c8451b-5d8a-403a-b5f5-82294490e44d",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.2844641790000004,
+    "bytes_per_sec": 147401620.43701634,
+    "iops": 35.143284901861271
+}
+hdd
+{
+    "osd": 18,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6824",
+                "nonce": 4589
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6827",
+                "nonce": 4589
+            }
+        ]
+    },
+    "osd_fsid": "758d0224-3b29-46c6-86dd-c26e62efc251",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.5432766400000002,
+    "bytes_per_sec": 142344219.26225418,
+    "iops": 33.937506499827904
+}
+hdd
+{
+    "osd": 19,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6848",
+                "nonce": 65526
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6849",
+                "nonce": 65526
+            }
+        ]
+    },
+    "osd_fsid": "15c11955-e25d-41ab-8397-7673dab7f268",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.4566622159999998,
+    "bytes_per_sec": 143997648.39770234,
+    "iops": 34.331714724946579
+}
+hdd
+{
+    "osd": 20,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6894",
+                "nonce": 4555
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6900",
+                "nonce": 4555
+            }
+        ]
+    },
+    "osd_fsid": "26fa2d49-1600-41e5-aa9a-1d7e22764f50",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.4273837870000001,
+    "bytes_per_sec": 144565280.96465793,
+    "iops": 34.467048875011905
+}
+hdd
+{
+    "osd": 21,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6818",
+                "nonce": 4599
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6819",
+                "nonce": 4599
+            }
+        ]
+    },
+    "osd_fsid": "bd73a0a6-dddf-4879-99c5-7a63242bd128",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.4247592969999996,
+    "bytes_per_sec": 144616381.62921312,
+    "iops": 34.479232222846299
+}
+hdd
+{
+    "osd": 22,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6811",
+                "nonce": 4547
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6813",
+                "nonce": 4547
+            }
+        ]
+    },
+    "osd_fsid": "dafe53c5-3271-45f1-b596-3e95ead148a4",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.3136097869999999,
+    "bytes_per_sec": 146814207.38478348,
+    "iops": 35.003234716602201
+}
+hdd
+{
+    "osd": 23,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6856",
+                "nonce": 65940
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6857",
+                "nonce": 65940
+            }
+        ]
+    },
+    "osd_fsid": "fc062bb0-2e5a-4698-8e12-8369efebcb3f",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.420312815,
+    "bytes_per_sec": 144703040.25855276,
+    "iops": 34.499893250120344
+}
+hdd
+{
+    "osd": 24,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6845",
+                "nonce": 4611
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6849",
+                "nonce": 4611
+            }
+        ]
+    },
+    "osd_fsid": "545519c1-7ff8-4ac5-af4f-de94e1a2a636",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.5509287550000002,
+    "bytes_per_sec": 142199967.55882514,
+    "iops": 33.903114213663372
+}
+hdd
+{
+    "osd": 25,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6890",
+                "nonce": 4513
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6895",
+                "nonce": 4513
+            }
+        ]
+    },
+    "osd_fsid": "6907f402-571a-42e4-bd78-d279adb47d4e",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.3135083879999998,
+    "bytes_per_sec": 146816242.90768504,
+    "iops": 35.00372002308012
+}
+hdd
+{
+    "osd": 26,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6864",
+                "nonce": 66406
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6865",
+                "nonce": 66406
+            }
+        ]
+    },
+    "osd_fsid": "91fa4489-6122-48be-b96e-b06cb45cd548",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.3347706629999996,
+    "bytes_per_sec": 146390647.142719,
+    "iops": 34.902250085525274
+}
+hdd
+{
+    "osd": 27,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6859",
+                "nonce": 4536
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6865",
+                "nonce": 4536
+            }
+        ]
+    },
+    "osd_fsid": "45a73388-d479-40ef-b502-9a26a7ea9b72",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.3415422130000003,
+    "bytes_per_sec": 146255622.16323933,
+    "iops": 34.870057621774514
+}
+hdd
+{
+    "osd": 28,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6841",
+                "nonce": 4502
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6844",
+                "nonce": 4502
+            }
+        ]
+    },
+    "osd_fsid": "fef083c0-11f7-4b55-9686-5964a6a13e7d",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.3544460220000003,
+    "bytes_per_sec": 145999008.05417863,
+    "iops": 34.808876050514847
+}
+hdd
+{
+    "osd": 29,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6872",
+                "nonce": 66934
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6873",
+                "nonce": 66934
+            }
+        ]
+    },
+    "osd_fsid": "9e75c57c-5265-4fbf-9d9b-0c54a8cdb4a7",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.2399066850000002,
+    "bytes_per_sec": 148308793.29213342,
+    "iops": 35.359571764977794
+}
+hdd
+{
+    "osd": 30,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6874",
+                "nonce": 4567
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6878",
+                "nonce": 4567
+            }
+        ]
+    },
+    "osd_fsid": "90633e7f-5490-4b4c-834a-2ccb0e0c1457",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.4055492100000002,
+    "bytes_per_sec": 144991518.3265658,
+    "iops": 34.568671781197978
+}
+hdd
+{
+    "osd": 31,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6880",
+                "nonce": 67754
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6881",
+                "nonce": 67754
+            }
+        ]
+    },
+    "osd_fsid": "64e8c5e0-299d-4f2a-8d81-71e6b8d835c9",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.3922111030000002,
+    "bytes_per_sec": 145253133.20181569,
+    "iops": 34.631045628026889
+}
+hdd
+{
+    "osd": 32,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6870",
+                "nonce": 4563
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6875",
+                "nonce": 4563
+            }
+        ]
+    },
+    "osd_fsid": "c67e57de-8258-4abb-978c-49e5bf948503",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 6.8553050320000004,
+    "bytes_per_sec": 156629328.5255523,
+    "iops": 37.343341952694011
+}
+hdd
+{
+    "osd": 33,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6873",
+                "nonce": 4559
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6877",
+                "nonce": 4559
+            }
+        ]
+    },
+    "osd_fsid": "5d91543f-d31e-4318-a1a7-37762b4a0fe1",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.6151183619999996,
+    "bytes_per_sec": 141001330.89960238,
+    "iops": 33.61733696451244
+}
+hdd
+{
+    "osd": 34,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6888",
+                "nonce": 68220
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6889",
+                "nonce": 68220
+            }
+        ]
+    },
+    "osd_fsid": "db0dd5f0-faf8-450a-a8b7-24828598adc1",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.524363041,
+    "bytes_per_sec": 142702022.50332913,
+    "iops": 34.022813440162928
+}
+hdd
+{
+    "osd": 35,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6905",
+                "nonce": 4559
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6908",
+                "nonce": 4559
+            }
+        ]
+    },
+    "osd_fsid": "5788c2c6-5f1f-4639-8e30-d72bbd548ebf",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.4646357270000001,
+    "bytes_per_sec": 143843834.21634582,
+    "iops": 34.295042566381888
+}
+hdd
+{
+    "osd": 36,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6898",
+                "nonce": 4579
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6899",
+                "nonce": 4579
+            }
+        ]
+    },
+    "osd_fsid": "008aa553-2a28-4cdd-8a6a-d835196e79d9",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.1242422909999998,
+    "bytes_per_sec": 150716634.85623583,
+    "iops": 35.933645929392775
+}
+hdd
+{
+    "osd": 37,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6896",
+                "nonce": 68748
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6897",
+                "nonce": 68748
+            }
+        ]
+    },
+    "osd_fsid": "dc8cf361-ee50-4ea4-ac20-40bb93b0a4d4",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.4222089550000003,
+    "bytes_per_sec": 144666073.20138428,
+    "iops": 34.491079616876668
+}
+hdd
+{
+    "osd": 38,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6826",
+                "nonce": 4590
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6827",
+                "nonce": 4590
+            }
+        ]
+    },
+    "osd_fsid": "941bb940-de9e-4b9e-b66f-b84544a6b1c2",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.3351222580000002,
+    "bytes_per_sec": 146383630.18815821,
+    "iops": 34.900577113189271
+}
+hdd
+{
+    "osd": 39,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6841",
+                "nonce": 4585
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6844",
+                "nonce": 4585
+            }
+        ]
+    },
+    "osd_fsid": "8f3e5467-f7b0-4a32-a06b-9712b29e1a4c",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.2325777679999996,
+    "bytes_per_sec": 148459077.58513024,
+    "iops": 35.395402332575379
+}
+hdd
+{
+    "osd": 40,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6904",
+                "nonce": 69156
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6905",
+                "nonce": 69156
+            }
+        ]
+    },
+    "osd_fsid": "f293c30f-8e72-4d12-9d62-181dddb396bf",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.5485475380000002,
+    "bytes_per_sec": 142244825.06001276,
+    "iops": 33.913809075358571
+}
+hdd
+{
+    "osd": 41,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6857",
+                "nonce": 4521
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6861",
+                "nonce": 4521
+            }
+        ]
+    },
+    "osd_fsid": "127f1c7d-1160-431c-90c6-8175117c8f95",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.4333411319999998,
+    "bytes_per_sec": 144449421.18660727,
+    "iops": 34.439425751354044
+}
+hdd
+{
+    "osd": 42,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.69:6802",
+                "nonce": 4528
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.69:6803",
+                "nonce": 4528
+            }
+        ]
+    },
+    "osd_fsid": "45d121eb-d7a3-411a-a1de-9a3b9b817b45",
+    "host": "node2",
+    "crush_location": {
+        "host": "node2",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.3316353210000003,
+    "bytes_per_sec": 146453250.46712044,
+    "iops": 34.917175881176099
+}
+hdd
+{
+    "osd": 43,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.68:6912",
+                "nonce": 69657
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.68:6913",
+                "nonce": 69657
+            }
+        ]
+    },
+    "osd_fsid": "aa479834-6444-47ba-abe7-141296ff74ab",
+    "host": "node3",
+    "crush_location": {
+        "host": "node3",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.195709291,
+    "bytes_per_sec": 149219733.67420188,
+    "iops": 35.576756876516789
+}
+hdd
+{
+    "osd": 44,
+    "addrs": {
+        "addrvec": [
+            {
+                "type": "v2",
+                "addr": "10.31.1.66:6802",
+                "nonce": 4600
+            },
+            {
+                "type": "v1",
+                "addr": "10.31.1.66:6803",
+                "nonce": 4600
+            }
+        ]
+    },
+    "osd_fsid": "bb164bb9-cb87-482c-8b57-931e9341a69e",
+    "host": "node1",
+    "crush_location": {
+        "host": "node1",
+        "root": "default"
+    }
+}
+{
+    "bytes_written": 1073741824,
+    "blocksize": 4194304,
+    "elapsed_sec": 7.4020690020000002,
+    "bytes_per_sec": 145059688.54247111,
+    "iops": 34.584924827211168
+}
