@@ -1,0 +1,11 @@
+# in all.yml  some important configurations must be set, which are listed bellow
+
+
+
+
+monitor_interface: eno1
+
+public_network: 10.31.2.0/16
+
+
+
