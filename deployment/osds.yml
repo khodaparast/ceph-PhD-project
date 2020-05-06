@@ -1,0 +1,31 @@
+
+# in osds.yml following parameters must be set!
+
+osd_auto_discovery: true
+
+chasis_size: 45
+
+
+
+
+lvm_volumes:
+  -data: /dev/1-1
+  -data: /dev/1-2
+  .
+  .
+  .
+  -data: /dev/1-15
+  -data: /dev/2-1
+  -data: /dev/2-2
+  .
+  .
+  .
+  -data: /dev/2-15
+  -data: /dev/3-1
+  -data: /dev/3-2
+  .
+  .
+  .
+  -data: /dev/3-15
+  
+  
