@@ -1,0 +1,37 @@
+________________________________ Benchmarking ____________________________
+
+# the following command builds a block device with 1GB size
+ 
+$ rbd create block-device1 --size 10240 --pool rbd2bench --image-feature layering
+
+$ rbd info --image block-device1 --pool rbd2bench
+
+$ rbd map block-device1
+
+$ rbd showmapped
+ 
+
+rbd bench –io-type <read | write | readwrite | rw> [–io-size size-in-B/K/M/G/T] [–io-threads num-ios-in-flight] [–io-total size-in-B/K/M/G/T] [–io-pattern seq | rand] [–rw-mix-read read proportion in readwrite] image-spec
+
+
+$ rbd bench --io-type read --io-size 4M --io-pattern seq  image01 --pool=rbd2bench > rbd-read-4M-seq.txt
+
+$ rbd bench --io-type read --io-size 4M --io-pattern rand  image01 --pool=rbd2bench > rbd-read-4M-rand.txt
+
+
+$ rbd bench --io-type read --io-size 4M  --io-threads 1 --io-pattern rand  image01 --pool=rbd2bench > rbd-read-4M-rand-singleThread.txt
+
+
+$ rbd bench --io-type write --io-size 4M --io-pattern rand  image01 --pool=rbd2bench > rbd-write-4M-rand.txt
+
+$ rbd bench --io-type write --io-size 4M --io-threads 1 --io-pattern seq  image01 --pool=rbd2bench > rbd-write-4M-seq-singleThread.txt
+
+
+$ rbd bench --io-type rw --io-size 4M --io-threads 1 --io-pattern seq  image01 --pool=rbd2bench > rbd-rw-4M-seq-singleThread.txt
+
+_____________________________________________________________________
+$ ceph osd pool create kube 1024
+
+$ ceph auth get-or-create client.kube mon 'allow r, allow command "osd blacklist"' osd 'allow class-read object_prefix rbd_children, allow rwx pool=kube' -o ceph.client.kube.keyring
+
+$ ceph auth get client.admin
