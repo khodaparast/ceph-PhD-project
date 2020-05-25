@@ -1,0 +1,12 @@
+bench  type readwrite read:write=50:50 io_size 4194304 io_threads 16 bytes 1073741824 pattern sequential
+  SEC       OPS   OPS/SEC   BYTES/SEC
+    1        32     69.36  290933928.29
+    2        64     45.61  191302050.95
+    3        96     39.22  164482253.64
+    4       128     36.42  152751349.36
+    5       160     35.61  149341767.02
+    6       192     30.44  127680288.23
+    7       224     31.03  130131393.24
+elapsed:     8  ops:      256  ops/sec:    29.92  bytes/sec: 125495576.41
+read_ops:   132   read_ops/sec:    15.43   read_bytes/sec: 64708656.59
+write_ops:   124   write_ops/sec:    14.49   write_bytes/sec: 60786919.82

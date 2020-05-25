@@ -1,0 +1,8 @@
+bench  type read io_size 4194304 io_threads 16 bytes 1073741824 pattern sequential
+  SEC       OPS   OPS/SEC   BYTES/SEC
+    1        48     98.31  412342638.52
+    2        96     69.22  290334580.11
+    3       144     61.42  257615218.25
+    4       192     58.77  246514251.64
+    5       240     54.41  228212588.67
+elapsed:     5  ops:      256  ops/sec:    47.45  bytes/sec: 199025065.73
