@@ -13,9 +13,11 @@ $ ceph osd pool set RepPool6  min_size 3
 # get pool names
 $ ceph osd lspools
 
+# delete content of a pool
+rados purge Ecpool21 --yes-i-really-really-mean-it
 
-# delete objects in a pool
-rados -p ECpool42 cleanup
+
+
 _____________________________________________________________________
 #remove a pool
 $ ceph osd pool delete {pool-name} [{pool-name} --yes-i-really-really-mean-it]
