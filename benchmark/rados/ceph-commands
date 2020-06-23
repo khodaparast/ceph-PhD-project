@@ -1,12 +1,25 @@
 
-#Creating pools
+#Creating pools erasure codded
 $ ceph osd pool create <pg-num> <pgp-num> erasure
 $ ceph osd pool create ECpool42 64 64 erasure ECprofile42
 $ ceph osd pool create ECpool82 64 64 erasure ECprofile82
 
+# Creating pools replicated
+$ ceph osd pool create RepPool6 16 16
+$ ceph osd pool set RepPool6 size 6
+$ ceph osd pool set RepPool6  min_size 3
+
 
 # get pool names
-$ ceph osd lspools
+$ ceph osd lspools 
+
+
+# get osd statistics, storage usage, total capacity
+ceph osd  df
+
+
+# get pools statistics, MAX storage, etc.
+ceph df
 
 
 # delete objects in a pool
@@ -20,8 +33,8 @@ _____________________________________________________________________
 # state of pages
 ceph pg stat
 
-
-
+# getting pools crush rules
+ceph osd crush dump
 
 _______________________________ purge ceph ___________________________
 
@@ -33,7 +46,7 @@ ansible-playbook purge-cluster.yml -e ireallymeanit=yes
 ansible-playbook purge-cluster.yml -e ireallymeanit=yes --skip-tags=remove_img
 
 
-________________________________ Benchmarking rbd ____________________________
+________________________________ Benchmarking with rbd ____________________________
 
 # the following command builds a block device with 1GB size
  
@@ -74,14 +87,20 @@ Reference: http://www.programmersought.com/article/4629806275/
 
 
 1. Create an erasure code configuration file:
-# ceph  osd erasure-code-profile  set Ecprofile crush-failure-domain=osd k=3 m=2
+$ ceph  osd erasure-code-profile  set Ecprofile crush-failure-domain=osd k=3 m=2
+
+
 
 2. view the configuration file
-# ceph osd erasure-code-profile ls
+$ ceph osd erasure-code-profile ls
+
 Ecprofile
 default
 
-# ceph osd erasure-code-profile get  Ecprofile
+
+
+$ ceph osd erasure-code-profile get  Ecprofile
+
 crush-device-class=
 crush-failure-domain=osd
 crush-root=default
@@ -93,28 +112,43 @@ technique=reed_sol_van
 w=8
 
 
+
+
 3. Create a new erasure type Ceph pool based on the erasure code configuration file generated in the previous step:
-# ceph osd pool create Ecpool 16 16 erasure Ecprofile
+
+$ ceph osd pool create Ecpool 16 16 erasure Ecprofile
+
 pool 'Ecpool' created
 
 
+
+
+
 4. Check the status of the newly created pool. You will find that the size of the pool is 5 (k+m), that is, the size of the erasure is 5. Therefore, the data will be written to five different OSDs:
-# ceph osd dump | grep Ecpool 
+
+$ ceph osd dump | grep Ecpool 
+
 pool 8 'Ecpool' erasure size 5 min_size 4 crush_rule 3 object_hash rjenkins pg_num 16 pgp_num 16 last_change 231 flags hashpspool stripe_width 12288
 
 
+
 5. Now we create a file and put it in the erasure code pool.
-# echo test > test
-# ceph osd pool ls
+$ echo test > test
+$ ceph osd pool ls
+
 Ecpool
-# rados put -p Ecpool object1 test
-# rados  -p  Ecpool ls
+
+$ rados put -p Ecpool object1 test
+$ rados  -p  Ecpool ls
+
 object1
+
 
 
 
 # delete a profile 
 $ ceph osd erasure-code-profile rm ECprofile42
+
 
 
 # get the default EC feature
@@ -125,15 +159,22 @@ $ ceph osd erasure-code-profile  ls
 # define EC profile
 $ ceph osd erasure-code-profile set ECprofile82  k=8   m=2
 
+# delete content of a pool
+rados purge Ecpool21 --yes-i-really-really-mean-it
+
+
 
 ________________________________ Benchmarking rados ____________________________
 
 # https://blog.codecentric.de/en/2014/03/ceph-object-storage-fast-gets-benchmarking-ceph/
 
+# rados write benchmarking
+$ rados bench -p Ecpool82 10 write --no-cleanup seq > Ecpool82_w10.txt 
 
-$ rados bench -p ECpool82 10 write --no-cleanup seq > ECpool82_w10.txt 
 
-$ rados bench -p ECpool42 10 seq
+# rados read benchmarking
+$ rados bench -p Ecpool42 10 seq
+
 
 $ rados -p ECpool42 cleanup
  
@@ -181,7 +222,6 @@ rbd: sysfs write failed
 RBD image feature set mismatch. 1
 # solution: 
 rbd feature disable rbd2bench/image01 object-map fast-diff deep-flatten
-
 
 
 
