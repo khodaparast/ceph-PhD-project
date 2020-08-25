@@ -1,0 +1,26 @@
+
+
+Network
+
+# rememeber, when change something in the network config restart the service
+$ service network restart
+________
+# it returns the host name and IP
+ $ grep `hostname` /etc/hosts
+ 
+ 
+ # give the name of hosts, 
+ $ cat /etc/hosts
+  output: 
+  
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+10.xx.x.xxx node1 
+10.xx.x.xxx	node2
+10.xx.x.xxx	node3
+
+ 
+if we have several host on a network, they must be declared in this file, as it has been displayed in output!
+________
+
+
