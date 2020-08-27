@@ -1,0 +1,20 @@
+
+https://docs.ceph.com/docs/master/cephadm/install/
+
+
+# adding new host after cephadm deployment
+$ sudo ceph orch host add node2 10.31.2.121
+ 
+__________
+$ sudo ceph orch apply mon node1,node2,node3
+
+$ sudo ceph orch host ls
+
+$ ceph orch apply osd --all-available-devices
+$ ceph orch device ls
+
+
+__________
+# it starts the ceph shell 
+$ sudo cephadm shell --fsid a5a2d702-e250-11ea-ac00-002590badcee
+
